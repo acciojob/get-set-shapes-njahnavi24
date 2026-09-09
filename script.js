@@ -15,12 +15,12 @@ class Rectangle {
 	}
 }
 
-class Square extends Reactangle {
+class Square extends Rectangle {
 	constructor(side){
 		super(side,side)
 	}
 	getPerimeter(){
-		return 4 * this.width
+		return this.width * 4
 	}
 }
 
